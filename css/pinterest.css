@@ -1,0 +1,99 @@
+body{
+	background-color: #EEEEEE;
+}
+
+#contenedor{
+	width: 90%;
+	max-width: 1100px;
+	min-width: 700px;
+	margin: 50px auto;
+}
+
+#columnas{
+	column-count: 4;
+	column-gap: 10px;
+}
+
+.pin{
+	display: inline-block;
+	background: #EEEEEE;
+	border: 2px solid #fafafa;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside:avoid;
+	column-break-inside:avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+.pin p{
+	font: 0.8em Arial, Sans-serif;
+	color: #333;
+	margin: 0;
+	text-align: justify;
+	color: #424242;
+}
+
+.pin h2{
+	font-size: 1em;
+	margin: 0.5em 0;
+	color: #212121;
+}
+
+.pin img{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+	opacity: 0.7;
+}
+
+.pin img:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+@media(max-width: 770px){
+	
+	
+	#contenedor{
+	width: 90%;
+	max-width: 770px;
+	min-width: 375px;
+	margin: 50px auto;
+	}
+
+	#columnas{
+		column-count: 3;
+		column-gap: 10px;
+	}
+
+	.pin h2{
+		text-align: center;
+	}
+
+}
+
+/*Codigo para telefono*/
+@media(max-width: 375px){
+	
+	
+	#contenedor{
+	width: 90%;
+	max-width: 375px;
+	min-width: 100px;
+	margin: 50px auto;
+	}
+
+	#columnas{
+		column-count: 1;
+		column-gap: 10px;
+	}
+
+	.pin h2{
+		text-align: center;
+	}
+
+}
+

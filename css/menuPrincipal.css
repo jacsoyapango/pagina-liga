@@ -1,0 +1,81 @@
+
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+nav {
+	width: 777px; height: 1.8em;
+	margin: 20px auto 0px;
+	background-color:#888;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(100, 100, 100)), color-stop(1, rgb(40, 40, 40)));
+	background: -moz-linear-gradient(center top, rgb(100,100,100) 20%, rgb(40,40,40) 100%);
+	font-size: .9em;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	padding: .3em 1.2em;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: .3em .5em;
+	margin: 0em .1em;
+	display: block;
+	color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+nav ul li a:hover {
+	background-color: #000;
+	text-decoration: underline;
+	-webkit-box-shadow: 1px 1px 0px #999, inset 1px 1px 0px #555;
+	-moz-box-shadow: 1px 1px 0px #999, inset 1px 1px 0px #555;
+	box-shadow: 1px 1px 0px #999, inset 1px 1px 0px #555;
+	-webkit-box-shadow: inset 1px 1px 0px 0px #555;
+	-moz-box-shadow: inset 1px 1px 0px 0px #555;
+	box-shadow: inset 1px 1px 0px 0px #555;
+}
+
+nav ul li a:active {
+	background-color: #F00;
+	text-decoration: underline;
+}
+
+nav li.subNav ul {
+	display: none;
+	font-size: 0.8em;
+	margin: .35em 0em 0em 0em;
+	padding: .5em 0em;
+	background-color: #888;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(40, 40, 40, 1)), color-stop(1, rgba(100, 100, 100, .9)));
+	background: -moz-linear-gradient(center top, rgba(40, 40, 40, 1) 0%, rgba(100, 100, 100, .9) 100%);
+	-webkit-border-radius: 0px 0px 6px 6px;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 6px 6px;
+	-webkit-border-radius: 2px 2px 2px #333;
+	-moz-box-shadow: 2px 2px 2px #333;
+	box-shadow: 2px 2px 2px #333;
+}
+
+nav li.subNav ul li {
+	float: none;
+	padding: 0em .3em .2em;
+}
+
+nav li.subNav:hover ul {
+	display: block;
+}
+
+#inicio #mHome a, #pCampeonato #mCampeonatos a, #pEquipo #mEquipo a, #pJugadas #mJugadas a {
+	background-color: #000;
+}
+

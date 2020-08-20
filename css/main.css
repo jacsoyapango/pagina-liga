@@ -1,0 +1,187 @@
+
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+h1{
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 2;
+}
+
+#contenedor {
+	width: 810px;
+	margin: 0px auto;
+}
+
+header {
+	width: 100%;
+	padding: 40px 0px 20px 0px;
+	text-align: center;
+	background-color: #212121;
+    -webkit-box-shadow:  0px 3px 3px 3px #000;
+    -moz-box-shadow:  0px 3px 3px 3px #000;
+    box-shadow:  0px 3px 3px 3px #000;    
+}
+
+#jugadores {
+	background-color: #DDD;
+	width: 810px; height: 557px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-webkit-box-shadow: 2px 2px 3px 2px #888;
+    -moz-box-shadow: 2px 2px 3px 2px #888;
+    box-shadow:  2px 2px 3px 2px #888;
+}
+
+.jugador {
+	width: 100px; height: 150px;
+	margin: 12px;
+	border: solid 4px #FFFFFF;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	left: 10px; top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.jugador h1 {
+	font-weight: bold;
+	font-size: .9em;
+	margin: 0px 0px .1em 0px;
+}
+
+.jugador h2 {
+	font-size: .8em;
+	font-weight: bold;
+	margin: 0px 0px .1em 0px;
+}
+
+.jugador p {
+	font-size: .7em;
+	text-decoration: none;
+	margin: 0px 0px .1em 0px;
+}
+
+.datos {
+	padding: 4px;
+	width: 100px;
+	height: 142px;
+	background-color: rgba(255, 255, 255, .7);
+	color: rgba(F255, 255, 255, .7);
+	position: absolute;
+	cursor: pointer;
+	bottom: -119px;
+	left: 0px;
+	font-size: 1em;
+}
+
+.datos img {
+	margin: 4px 0px 0px 0px;
+	-webkit-box-shadow: 2px 2px 3px 1px #888;
+    -moz-box-shadow: 2px 2px 3px 1px #888;
+    box-shadow: 2px 1px 3px 1px #888;
+}
+
+footer {
+	margin: 20px 0px 0px 0px;
+	width: 100%;
+	background-color: #333;
+	padding: 15px 0px;
+}
+
+#pie {
+	width: 810px; height: 82px;
+	background-color: #333;
+	margin: 0px auto;
+	padding: 5px 10px;
+}
+
+#pie img {
+	margin: 0px; padding: 0px;
+}
+
+#redes {
+	float: left;
+}
+
+#notas {
+	float: right;
+	width: 250px;
+	padding: 0px 0px 0px 70px;
+	border-left: #666 solid 2px;
+}
+
+#notas p {
+	margin: 2px 0px 0px 0px;
+	float: left;
+	margin-right: 5px;
+	font-size: .8em;
+	color: #666;
+}
+
+
+.campeon {
+	margin: 30px 0px 30px 15px; padding: 15px;
+	background-color:#EEE;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.campeon img {
+	float: left;
+	margin: -30px 0px 0px -30px;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	-moz-box-shadow: 3px 3px 3px #888;
+	box-shadow: 3px 3px 3px #888;
+}
+
+.campeon h1 {
+	font-size: .9em;
+	color: #444;
+	font-weight: bold;
+	margin: 0px 0px 5px 65px;
+	text-align: left;
+}
+
+.campeon p, .campeon ul  {
+	font-size: .8em;
+	color: #666;
+	margin: .4em 0px 0px 65px;
+}
+
+.campeon ul  {
+	margin-left: 82px;
+}
+
+.campeon a  {
+	color: #444;
+}
+
+#video{
+	margin-top: 12px;
+	width: 800px;
+}
